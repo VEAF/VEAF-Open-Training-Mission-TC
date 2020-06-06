@@ -672,3 +672,5 @@ ctld.initialize()
 
 veaf.logInfo("init - veafInterpreter")
 veafInterpreter.initialize()
+
+veaf.config.ww2 = true
