@@ -32707,7 +32707,7 @@ mission = {
             [7] = 66,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 8475,
+    ["currentKey"] = 8781,
     ["date"] = {
         ["Day"] = 21,
         ["Month"] = 6,
@@ -32796,8 +32796,8 @@ mission = {
     ["trig"] = {
         ["actions"] = {
             [1] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_7\"));",
-            [2] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_14\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_9\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_10\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_11\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_12\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_13\"));",
-            [3] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_24\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_164\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_165\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_166\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_167\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_163\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_32\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_36\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_37\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_39\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_40\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_42\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_43\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_44\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_45\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_46\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_47\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_48\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_49\"));",
+            [2] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_14\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_9\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_10\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_11\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_13\"));",
+            [3] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_24\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_30\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_164\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_165\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_167\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_31\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_163\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_32\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_33\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_34\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_35\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_36\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_37\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_38\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_39\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_40\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_42\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_43\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_44\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_45\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_46\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_47\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_48\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_49\"));",
             [4] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_22\"));",
             [5] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_53\"));",
         }, -- end of ["actions"]
@@ -32890,19 +32890,12 @@ mission = {
                     ["zone"] = "",
                 }, -- end of [4]
                 [5] = {
-                    ["KeyDict_text"] = "DictKey_ActionText_12",
-                    ["meters"] = 1000,
-                    ["predicate"] = "a_do_script",
-                    ["text"] = "DictKey_ActionText_12",
-                    ["zone"] = "",
-                }, -- end of [5]
-                [6] = {
                     ["KeyDict_text"] = "DictKey_ActionText_13",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script",
                     ["text"] = "DictKey_ActionText_13",
                     ["zone"] = "",
-                }, -- end of [6]
+                }, -- end of [5]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "mission start - dynamic",
@@ -32945,131 +32938,125 @@ mission = {
                     ["zone"] = "",
                 }, -- end of [4]
                 [5] = {
-                    ["file"] = "ResKey_Action_166",
+                    ["file"] = "ResKey_Action_167",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [5]
                 [6] = {
-                    ["file"] = "ResKey_Action_167",
+                    ["file"] = "ResKey_Action_31",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [6]
                 [7] = {
-                    ["file"] = "ResKey_Action_31",
+                    ["file"] = "ResKey_Action_163",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [7]
                 [8] = {
-                    ["file"] = "ResKey_Action_163",
+                    ["file"] = "ResKey_Action_32",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [8]
                 [9] = {
-                    ["file"] = "ResKey_Action_32",
+                    ["file"] = "ResKey_Action_33",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [9]
                 [10] = {
-                    ["file"] = "ResKey_Action_33",
+                    ["file"] = "ResKey_Action_34",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [10]
                 [11] = {
-                    ["file"] = "ResKey_Action_34",
+                    ["file"] = "ResKey_Action_35",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [11]
                 [12] = {
-                    ["file"] = "ResKey_Action_35",
+                    ["file"] = "ResKey_Action_36",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [12]
                 [13] = {
-                    ["file"] = "ResKey_Action_36",
+                    ["file"] = "ResKey_Action_37",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [13]
                 [14] = {
-                    ["file"] = "ResKey_Action_37",
+                    ["file"] = "ResKey_Action_38",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [14]
                 [15] = {
-                    ["file"] = "ResKey_Action_38",
+                    ["file"] = "ResKey_Action_39",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [15]
                 [16] = {
-                    ["file"] = "ResKey_Action_39",
+                    ["file"] = "ResKey_Action_40",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [16]
                 [17] = {
-                    ["file"] = "ResKey_Action_40",
+                    ["file"] = "ResKey_Action_42",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [17]
                 [18] = {
-                    ["file"] = "ResKey_Action_42",
+                    ["file"] = "ResKey_Action_43",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [18]
                 [19] = {
-                    ["file"] = "ResKey_Action_43",
+                    ["file"] = "ResKey_Action_44",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [19]
                 [20] = {
-                    ["file"] = "ResKey_Action_44",
+                    ["file"] = "ResKey_Action_45",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [20]
                 [21] = {
-                    ["file"] = "ResKey_Action_45",
+                    ["file"] = "ResKey_Action_46",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [21]
                 [22] = {
-                    ["file"] = "ResKey_Action_46",
+                    ["file"] = "ResKey_Action_47",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [22]
                 [23] = {
-                    ["file"] = "ResKey_Action_47",
+                    ["file"] = "ResKey_Action_48",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
                 }, -- end of [23]
                 [24] = {
-                    ["file"] = "ResKey_Action_48",
-                    ["meters"] = 1000,
-                    ["predicate"] = "a_do_script_file",
-                    ["zone"] = "",
-                }, -- end of [24]
-                [25] = {
                     ["file"] = "ResKey_Action_49",
                     ["meters"] = 1000,
                     ["predicate"] = "a_do_script_file",
                     ["zone"] = "",
-                }, -- end of [25]
+                }, -- end of [24]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "mission start - static",

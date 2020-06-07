@@ -3,8 +3,6 @@ dictionary = {
 assert(loadfile(script))()",
     ["DictKey_ActionText_11"] = "local script = VEAF_DYNAMIC_PATH .. \"/src/scripts/community/Weathermark.lua\"\
 assert(loadfile(script))()",
-    ["DictKey_ActionText_12"] = "local script = VEAF_DYNAMIC_PATH .. \"/src/scripts/community/CTLD.lua\"\
-assert(loadfile(script))()",
     ["DictKey_ActionText_13"] = "local script = VEAF_DYNAMIC_PATH .. \"/src/scripts/VeafDynamicLoader.lua\"\
 assert(loadfile(script))()",
     ["DictKey_ActionText_14"] = "env.info(\"DYNAMIC LOADING\")",
