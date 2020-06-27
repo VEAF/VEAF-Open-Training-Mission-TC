@@ -11,10 +11,10 @@ assert(loadfile(script))()",
 assert(loadfile(script))()",
     ["DictKey_ActionText_23"] = "return VEAF_DYNAMIC_PATH==nil",
     ["DictKey_ActionText_24"] = "env.info(\"STATIC LOADING\")",
+    ["DictKey_ActionText_387"] = "VEAF_DYNAMIC_PATH = [[D:/DEV/_veaf/VEAF-Mission-Creation-Tools']]",
     ["DictKey_ActionText_50"] = "return VEAF_DYNAMIC_PATH==nil",
     ["DictKey_ActionText_6"] = "return false --true=dynamic, false=static",
-    ["DictKey_ActionText_7"] = "VEAF_DYNAMIC_PATH = 'D:/DEV/_veaf/VEAF-Mission-Creation-Tools'\
-VEAF_DYNAMIC_MISSIONPATH = 'D:/DEV/_veaf/VEAF-Open-Training-Mission-TC'",
+    ["DictKey_ActionText_7"] = "VEAF_DYNAMIC_MISSIONPATH = [[D:/DEV/_veaf/VEAF-Open-Training-Mission-TC]]",
     ["DictKey_ActionText_8"] = "return VEAF_DYNAMIC_PATH~=nil",
     ["DictKey_ActionText_9"] = "local script = VEAF_DYNAMIC_PATH .. \"/src/scripts/community/mist.lua\"\
 assert(loadfile(script))()",
