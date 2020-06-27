@@ -12,6 +12,7 @@ mapResource = {
     ["ResKey_Action_36"] = "veafCombatMission.lua",
     ["ResKey_Action_37"] = "veafCombatZone.lua",
     ["ResKey_Action_38"] = "veafGrass.lua",
+    ["ResKey_Action_388"] = "veafRemote.lua",
     ["ResKey_Action_39"] = "veafInterpreter.lua",
     ["ResKey_Action_40"] = "veafMarkers.lua",
     ["ResKey_Action_42"] = "veafMove.lua",
